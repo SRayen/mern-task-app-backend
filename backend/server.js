@@ -16,7 +16,10 @@ app.use(express.urlencoded({ extended: false }));
 // app.use(cors({ origin: ["http://localhost:3000/"] }));
 app.use(
   cors({
-    origin: ["http://localhost:3000/"],
+    origin: [
+      "http://localhost:3000/",
+      "https://mern-task-app-5zyn.onrender.com/",
+    ],
   })
 );
 
